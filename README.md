@@ -13,7 +13,7 @@ WeatherSphere is a cross-platform mobile application built using **React Native*
 
 ## 📁 Project Structure
 
-```
+```-
 
 WeatherSphereApp/
 ├── assets/
