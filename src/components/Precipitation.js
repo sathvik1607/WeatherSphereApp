@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#2e2e2e",
     borderRadius: 10,
     marginHorizontal: 5,
-    width: 100,
+    width: 110,
     height:120,
   },
   icon: {
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
   value: {
-    fontSize: 20,
+    fontSize: 17,
     fontWeight: "bold",
     color: "white",
     paddingTop: 5,

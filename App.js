@@ -12,6 +12,7 @@ import Precipitation from "./src/components/Precipitation";
 import Sunrise from "./src/components/Sunrise";
 import Sunset from "./src/components/Sunset";
 import FeelsLike from "./src/components/Feelslike";
+import WeatherNotification from "./src/components/WeatherNotification";
 import CurrentTemperature from "./src/components/CurrentTemperature";
 
 const App = () => {
@@ -157,6 +158,9 @@ const App = () => {
   const handleCityChange = (newCity) => {
     setCity(newCity);
   };
+  const temp = weatherData?.main?.temp;
+  const weather = weatherData?.weather?.[0]?.main.toLowerCase();
+  const rainVolume = weatherData?.rain?.["1h"] ?? 0;
 
   return (
     <KeyboardAvoidingView
@@ -169,6 +173,7 @@ const App = () => {
         {!error && weatherData && (
           <View style={styles.weatherContainer}>
             <Text style={styles.cityName}>{city}</Text>
+            
             {airQuality === 5 && (
               <Animated.Text
                 style={[
@@ -181,6 +186,7 @@ const App = () => {
                 Better to stay at home, air quality is not good!
               </Animated.Text>
             )}
+            <WeatherNotification temp={temp} weather={weather} rainVolume={rainVolume} />
             <View style={styles.temprow}>
               <Sunrise time={sunrise} />
               <CurrentTemperature
