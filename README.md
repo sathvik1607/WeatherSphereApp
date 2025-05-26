@@ -7,7 +7,9 @@ Here is your **fully updated `README.md`** with corrected structure, **Visual Cr
 
 GitHub Repo: [https://github.com/sathvik1607/WeatherSphereApp.git](https://github.com/sathvik1607/WeatherSphereApp.git)
 
-WeatherSphere is a cross-platform mobile application powered by **React Native** (frontend) and **Flask** (backend). It provides real-time weather updates, forecasts, and personalized alerts using the **Visual Crossing API**. The backend supports ML integrations and alert management.
+WeatherSphere is a cross-platform mobile application powered by **React Native** (frontend) and **Flask** (backend).
+It provides real-time weather updates, forecasts, and personalized alerts using the **Visual Crossing API**.
+ The backend supports ML integrations and alert management.
 
 ---
 
