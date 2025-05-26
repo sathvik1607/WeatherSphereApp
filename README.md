@@ -1,4 +1,4 @@
-Here is your **fully updated `README.md`** with corrected structure, **Visual Crossing API usage**, and **screenshots added**. I’ve removed mentions of OpenWeatherMap and inserted screenshot placeholders pointing to `assets/screenshots`.
+Here is your **fully updated `README.md`** with a well-organized folder structure, corrected **Visual Crossing API** reference (no OpenWeatherMap mention), added **screenshots**, and matching project structure to your React Native + Flask repo setup.
 
 ---
 
@@ -7,7 +7,7 @@ Here is your **fully updated `README.md`** with corrected structure, **Visual Cr
 
 **GitHub Repo:** [https://github.com/sathvik1607/WeatherSphereApp.git](https://github.com/sathvik1607/WeatherSphereApp.git)
 
-WeatherSphere is a cross-platform mobile application powered by **React Native** (frontend) and **Flask** (backend). It provides real-time weather updates, forecasts, and personalized alerts using the **Visual Crossing API**. The backend supports ML integrations and alert management.
+WeatherSphere is a cross-platform mobile application built using **React Native** (frontend) and **Flask** (backend). It delivers real-time weather updates, hourly and daily forecasts, and location-based weather alerts using the **Visual Crossing API**. The backend also supports integration of machine learning models for advanced prediction.
 
 ---
 
@@ -26,7 +26,7 @@ WeatherSphereApp/
 │   ├── requirements.txt
 │   ├── instruction.txt
 │   └── tempCodeRunnerFile.py
-├── src/                        # React Native source
+├── src/                        # React Native components
 │   └── components/
 │       ├── AirQuality.js
 │       ├── CitySelector.js
@@ -56,19 +56,20 @@ WeatherSphereApp/
 
 ## 🚀 Features
 
-### ✅ Frontend (React Native)
+### ✅ React Native Frontend
 
 - 🔍 City Search & Selection
-- 🌡️ Real-time Weather Conditions
-- 🕒 Hourly and 📅 Daily Forecasts
-- 💧 Humidity, Wind, Pressure, Feels Like, AQI, Sunrise/Sunset
-- ⚠️ In-App Weather Alerts and Animated Notifications
+- 🌡️ Real-Time Temperature & Conditions
+- 🕒 Hourly & 📅 Daily Forecasts
+- 💧 Humidity, Wind, Feels Like, AQI, Pressure
+- 🌅 Sunrise/Sunset Information
+- ⚠️ In-App Weather Alerts & Animated Notifications
 
-### ✅ Backend (Flask)
+### ✅ Flask Backend
 
-- 📡 Weather Data Fetching from Visual Crossing
-- 🧠 (Planned) LSTM-based Forecasting
-- 📬 Personalized Alert Triggers via Rules
+- 📡 Weather Data Fetching via Visual Crossing
+- 🧠 Planned LSTM-based Forecasting Integration
+- 📬 Personalized Alerts via Rules (e.g., temperature thresholds)
 
 ---
 
@@ -98,15 +99,15 @@ python app.py
 
 ---
 
-## 🔑 API Key (Visual Crossing)
+## 🔑 API Key – Visual Crossing
 
-Update the API key in your React Native frontend (likely in a config file or component):
+Replace the placeholder API key in your frontend configuration:
 
 ```js
 const API_KEY = "your_visual_crossing_api_key";
 ```
 
-You can get a free API key from [Visual Crossing](https://www.visualcrossing.com/).
+> You can obtain a free API key from [Visual Crossing](https://www.visualcrossing.com/).
 
 ---
 
@@ -120,9 +121,9 @@ You can get a free API key from [Visual Crossing](https://www.visualcrossing.com
 
 ## 🔮 Future Enhancements
 
-* 📍 GPS-based Weather Updates
-* 🔔 Push/Email Notifications
-* 📊 ML-based Weather Trends with LSTM
+* 📍 GPS-Based Weather Updates
+* 🔔 Push or Email Notifications
+* 📊 ML-Based Forecasts (LSTM)
 * 🌘 Dark Mode Support
 
 ---
@@ -139,14 +140,19 @@ This project is licensed under the **MIT License**.
 
 ---
 
-### ✅ Notes:
+### ✅ Tips
 
-- Place screenshots at: `WeatherSphereApp/assets/screenshots/home.png` and `result.png`.
-- Replace `"your_visual_crossing_api_key"` with your actual API key.
-- If using `.env`, ensure it is properly ignored with `.gitignore`.
+- Make sure to add your screenshots to:
+```
 
-Let me know if you want me to add:
-- `.env` support,
-- CI/CD badge (GitHub Actions),
-- deployment instructions (Heroku/Vercel/Render).
+WeatherSphereApp/assets/screenshots/home.png
+WeatherSphereApp/assets/screenshots/result.png
+
+```
+- If you plan to hide your API key, use `.env` and the `react-native-dotenv` library, and add `.env` to your `.gitignore`.
+
+Would you like me to:
+- Add `.env` setup?
+- Add deployment instructions for Flask (e.g., Render)?
+- Add GitHub Actions for automatic testing/linting?
 ```
