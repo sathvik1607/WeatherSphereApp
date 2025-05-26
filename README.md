@@ -1,5 +1,3 @@
-Here is your **fully updated `README.md`** with corrected structure, **Visual Crossing API usage**, and **screenshots added**. I’ve removed mentions of OpenWeatherMap and inserted screenshot placeholders pointing to `assets/screenshots`.
-
 ---
 
 ```markdown
