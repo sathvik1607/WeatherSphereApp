@@ -5,7 +5,7 @@ Here is your **fully updated `README.md`** with corrected structure, **Visual Cr
 ```markdown
 # 🌦️ WeatherSphere – Weather Forecast & Alerts App
 
-**GitHub Repo:** [https://github.com/sathvik1607/WeatherSphereApp.git](https://github.com/sathvik1607/WeatherSphereApp.git)
+GitHub Repo: [https://github.com/sathvik1607/WeatherSphereApp.git](https://github.com/sathvik1607/WeatherSphereApp.git)
 
 WeatherSphere is a cross-platform mobile application powered by **React Native** (frontend) and **Flask** (backend). It provides real-time weather updates, forecasts, and personalized alerts using the **Visual Crossing API**. The backend supports ML integrations and alert management.
 
@@ -13,7 +13,7 @@ WeatherSphere is a cross-platform mobile application powered by **React Native**
 
 ## 📁 Project Structure
 
-```
+```'
 
 WeatherSphereApp/
 ├── assets/
@@ -112,9 +112,9 @@ You can get a free API key from [Visual Crossing](https://www.visualcrossing.com
 
 ## 🖼️ Screenshots
 
-| Home Screen                          | Forecast Result                          |
-| ------------------------------------ | ---------------------------------------- |
-| ![Home](assets/screenshots/home.png) | ![Result](assets/screenshots/result.png) |
+| Home Screen                    | 
+| ------------------------------ | 
+| ![Home](assets/home.png) 
 
 ---
 
@@ -125,28 +125,4 @@ You can get a free API key from [Visual Crossing](https://www.visualcrossing.com
 * 📊 ML-based Weather Trends with LSTM
 * 🌘 Dark Mode Support
 
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-**Made with ❤️ by [Sathvik](https://github.com/sathvik1607)**
-
-```
-
----
-
-### ✅ Notes:
-
-- Place screenshots at: `WeatherSphereApp/assets/screenshots/home.png` and `result.png`.
-- Replace `"your_visual_crossing_api_key"` with your actual API key.
-- If using `.env`, ensure it is properly ignored with `.gitignore`.
-
-Let me know if you want me to add:
-- `.env` support,
-- CI/CD badge (GitHub Actions),
-- deployment instructions (Heroku/Vercel/Render).
 ```
