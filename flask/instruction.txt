@@ -1,0 +1,2 @@
+open the terminal in this current folder "flask"
+and try running "pip install -r requirements.txt"

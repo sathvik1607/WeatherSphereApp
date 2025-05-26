@@ -1,0 +1,19 @@
+# Specify Python version
+#python==3 or above
+
+Flask
+Flask-Cors
+
+# For API interaction
+requests
+
+# For data manipulation
+pandas
+numpy
+
+# For machine learning
+scikit-learn
+tensorflow
+
+# Environment variable management
+python-dotenv
