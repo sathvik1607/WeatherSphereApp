@@ -20,9 +20,7 @@ It provides real-time weather updates, forecasts, and personalized alerts using 
 
 WeatherSphereApp/
 ├── assets/
-│   └── screenshots/
-│       ├── home.png
-│       └── result.png
+│   └── screenshot.png
 ├── flask/                      # Flask backend
 │   ├── app.py
 │   ├── model.py
